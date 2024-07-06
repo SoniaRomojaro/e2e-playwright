@@ -32,6 +32,9 @@ With Visual Studio Code:
 ## Generate Test results report
 npm run generate-report
 
+## hacer solo un test
+npm run test -- --tags '@tag'
+
 ## Run Playwright Code Generator
 npx playwright codegen playwright.dev
 
