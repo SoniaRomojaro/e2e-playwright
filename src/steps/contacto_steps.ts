@@ -3,6 +3,7 @@ import { expect } from 'playwright/test';
 
 Given('I navigate to main page of the BootcampQA', async function () {
     await this.page.goto(this.URL);
+    await this.page.getByRole('button', { name: 'Aceptar' }).click();
   });
 
 
